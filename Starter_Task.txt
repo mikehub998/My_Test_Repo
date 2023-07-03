@@ -1,0 +1,21 @@
+Recap 0:
+
+    With the commands in your documentation/on the board.
+    Create a new repo and add two .txt files to a repo.
+    Next, edit a file and reupload it!	
+
+Task 1: 
+
+    Create a new repository, and initialise the repository with a README.md file
+    Clone the repository to the desired location
+    Check that an active branch has been checked out
+
+Task 2:
+
+    Run the command git clone https://github.com/QACTrainers/git-branching.git
+    Run the command cd ./git-branching
+    See which branches are currently configured for that repository
+    Create a new branch called develop
+    Checkout the develop branch
+    From develop, checkout to a new branch called issue-1
+    Delete the issue-1 and develop branches
