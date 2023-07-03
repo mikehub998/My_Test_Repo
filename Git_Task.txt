@@ -1,0 +1,17 @@
+This repo will encompass all aspects of Git that we've covered. 
+
+The repo should be called "Git_Pun_Repo", the object is to add puns in txt documents pushing to the repo as you go!  
+							
+Including:					
+	adding, committing, and pushing						
+	forking and cloning						
+	reverting and/or resetting commits						
+	a feature-branch model with MAIN, DEV, and FEATURE-<xyz> branches						
+	each team member should fork and clone their own version of this repo 						
+	each team member must contribute at least two FEATURE-<xyz> branches						
+	each branch should contain a text file with an awful pun						
+	pull requests for merging your FEATURE-<xyz>s to your DEV (your copy of the original repo!)											
+	setting your group members as collaborators												
+	approvals before a PR is accepted by at least 2 members 						
+					
+						

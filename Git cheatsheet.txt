@@ -1,0 +1,30 @@
+General Git Commands:
+
+git checkout -b new branch
+git checkout branch name
+git fetch - Downloads commits, files, and refs from a remote repository into your local repo. 
+git add . - add all the stuff I've been working on 
+git add /dir - add specific component
+git commit -m "m for msg" - commit all the changes
+git pull (if necessary) - fetch and merge any commits from the remote branch.
+git push origin "branch" - pushes to branch 
+
+Turn a working directory into a git project: 
+
+cd directory_name - locate files to upload
+git init - initiate with .git file
+git add . 
+git commit -m "initial commit" 
+git remote add origin https://github.com/myName/Repo.git
+git config --get remote.origin.url - output origin for testing 
+git push origin branch
+
+Setup your git project:
+
+git config --global user.name "" - set access name
+git config --global user.email "" - set access email
+git config --global core.editor - change text editor
+git config -l - shows current user settings 
+git config --global credential.helper cache - saves git token when used (normally default anyway) 
+git config --global --unset credential.helper - unsets saved git token 
+git config --global --add merge.ff false - disables fast forwarding, showing commmit history on your network graph.  (Use this for IMS!)
